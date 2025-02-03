@@ -29,6 +29,8 @@ lr.fit(train_scaled, train_target)
 print(lr.score(train_scaled, train_target))
 print(lr.score(test_scaled, test_target))
 
+## 설명하기 쉬운 모델과 어려운 모델
+
 print(lr.coef_, lr.intercept_)
 
 ## 결정 트리
